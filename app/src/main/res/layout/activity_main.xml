@@ -6,9 +6,24 @@
     android:background="@null"
     >
 
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
         <com.xienan.im.view.MyVideoView
-            android:id="@+id/videoView"
+            android:id="@+id/myvideoview"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
+        <FrameLayout
+            android:id="@+id/activity_main_fraglayout"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+
 </RelativeLayout>
+

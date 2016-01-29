@@ -1,1 +1,1 @@
-include ':app', 'font_lib'
+include ':app', ':font_library', ':autolayout'
